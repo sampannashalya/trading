@@ -1,0 +1,124 @@
+/* Apply dark mode
+body {
+    background-color: #121212;
+    color: #ffffff;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  } 
+  
+  Center the content
+  .container {
+    max-width: 800px;
+    margin: auto;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  /* Style buttons 
+  button {
+    background-color: #1db954;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    margin-top: 10px;
+    border-radius: 5px;
+  }
+  
+  button:hover {
+    background-color: #17a347;
+  }
+  
+  /* Input fields 
+  input {
+    padding: 10px;
+    width: 80%;
+    margin-top: 10px;
+    border: none;
+    border-radius: 5px;
+  }
+  
+  /* Navbar 
+  nav {
+    background-color: #1e1e1e;
+    padding: 10px;
+    text-align: center;
+  }
+  
+  nav ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  nav ul li {
+    display: inline;
+    margin: 0 15px;
+  }
+  
+  nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+  } */
+
+
+/* General Styles */
+body {
+  font-family: "Arial", sans-serif;
+  background-color: #121212;
+  color: white;
+  margin: 0;
+  padding: 20px;
+  text-align: center;
+}
+
+/* Stock & Portfolio Containers */
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+
+/* Stock List */
+.stock-card {
+  background: #1e1e1e;
+  padding: 15px;
+  border-radius: 10px;
+  width: 300px;
+  box-shadow: 0 4px 8px rgba(255, 255, 255, 0.1);
+  transition: transform 0.3s ease-in-out;
+}
+
+.stock-card:hover {
+  transform: scale(1.05);
+}
+
+/* Portfolio List */
+.portfolio-card {
+  background: #2a2a2a;
+  padding: 15px;
+  border-radius: 10px;
+  width: 300px;
+  box-shadow: 0 4px 8px rgba(255, 255, 255, 0.1);
+  transition: transform 0.3s ease-in-out;
+}
+
+.portfolio-card:hover {
+  transform: scale(1.05);
+}
+
+/* Stock Price Changes */
+.stock-price {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.positive {
+  color: #00ff00;
+}
+
+.negative {
+  color: #ff4c4c;
+}
